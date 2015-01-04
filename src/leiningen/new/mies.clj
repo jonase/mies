@@ -14,4 +14,6 @@
       [".gitignore" (render "gitignore" data)]
       ["scripts/compile_cljsc" (render "compile_cljsc" data) :executable true]
       ["scripts/repl" (render "repl" data) :executable true]
-      ["scripts/repl.clj" (render "repl.clj" data)])))
+      ["scripts/browser_repl" (render "browser_repl" data) :executable true]
+      ["scripts/repl.clj" (render "repl.clj" data)]
+      ["scripts/browser_repl.clj" (render "browser_repl.clj" data)])))

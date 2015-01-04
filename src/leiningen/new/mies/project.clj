@@ -3,7 +3,7 @@
   :url "http://example.com/FIXME"
 
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2657"]]
+                 [org.clojure/clojurescript "0.0-2665"]]
 
   :node-dependencies [[source-map-support "0.2.8"]]
 
@@ -21,11 +21,11 @@
                 :output-to "{{sanitized}}.js"
                 :output-dir "out"
                 :optimizations :none
-                :cache-analysis true                
+                :cache-analysis true
                 :source-map true}}
              {:id "release"
               :source-paths ["src"]
               :compiler {
                 :output-to "{{sanitized}}.min.js"
-                :pretty-print false              
+                :pretty-print false
                 :optimizations :advanced}}]})
